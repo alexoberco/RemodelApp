@@ -1,0 +1,402 @@
+/* Container 39 */
+.container-39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: #FFFFFF;
+  border-radius: 2vh;
+}
+
+/* Logo Container */
+.logo-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2vw;
+}
+
+/* Logo */
+.logo {
+  width: 10vw;
+  height: auto;
+}
+
+/* Textbox 4 */
+.container-39 .textbox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15vw;
+  opacity: 1;
+}
+
+.container-39 .textbox input {
+  width: 20vw; /* Ajustado para que sea más corto y adaptable */
+  height: 5vh;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  font-size: 2vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 2.6vh;
+  background: #F3F4F6;
+  border-radius: 1vh;
+  border-width: 0;
+  outline: none;
+}
+
+.container-39 .textbox svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1.6vw;
+  width: 2vh;
+  height: auto;
+}
+
+.container-39 .textbox svg.left {
+  left: 1.6vw;
+}
+
+/* hover */
+.container-39 .textbox input:hover {
+  color: #BCC1CA;
+  background: #F3F4F6;
+}
+
+/* focused */
+.container-39 .textbox input:focus {
+  color: #BCC1CA;
+  background: #FFFFFF;
+}
+
+/* disabled */
+.container-39 .textbox input:disabled {
+  color: #BCC1CA;
+  background: #F3F4F6;
+}
+
+.container-39 .textbox :disabled + .icon,
+.container-39 .textbox :disabled + .icon + .icon {
+  fill: #171A1F;
+}
+
+/* Header Menu 2 */
+.container-39 .header-menu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40vw; /* Centrado más hacia el centro */
+  width: 30vw; /* Ajustado para que quede más centrado */
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alineación de los elementos */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 2.2vh;
+  opacity: 1;
+}
+
+.container-39 .header-menu .header-menu-item {
+  padding: 1.5vh 1vw;
+  color: #565E6C;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.container-39 .header-menu .header-menu-item:hover {
+  color: #000000;
+  font-weight: 700;
+}
+
+.container-39 .header-menu .header-menu-item.selected {
+  position: relative;
+  font-weight: 500;
+  color: #000000;
+}
+
+.container-39 .header-menu .header-menu-item.selected::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.container-39 .header-menu .header-menu-item.selected:hover {
+  color: #565E6C;
+  font-weight: 400;
+}
+
+/* Añade este estilo para quitar el subrayado de los enlaces */
+.container-39 .header-menu .header-menu-item {
+  text-decoration: none;
+}
+
+/* Button 20 */
+.button-20 {
+  position: absolute;
+  top: 18px;
+  left: 75vw; /* Ajustado para que se adapte a la pantalla */
+  height: 5vh; /* Ajustado para que sea adaptable */
+  padding: 0 2vw; /* Ajustado para que sea adaptable */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1vw; /* Ajustado para que sea adaptable */
+  font-weight: 400;
+  line-height: 2.6vh; /* Ajustado para que sea adaptable */
+  color: #FFFFFFFF;
+  background: #171A1FFF;
+  opacity: 1;
+  border: none;
+  border-radius: 2vh; /* Ajustado para que sea adaptable */
+  gap: 2vw; /* Ajustado para que sea adaptable */
+}
+
+.button-20 .icon {
+  width: 2.5vw; /* Ajustado para que sea adaptable */
+  height: 2.5vw; /* Ajustado para que sea adaptable */
+  fill: #FFFFFFFF;
+}
+
+/* Text 21 */
+.text-21 {
+  position: absolute;
+  top: 23px;
+  left: 91vw; /* Ajustado para que se adapte a la pantalla */
+  font-family: Poppins;
+  font-size: 1vw; /* Ajustado para que sea adaptable */
+  font-weight: 700;
+  line-height: 3.6vh; /* Ajustado para que sea adaptable */
+  color: #171A1FFF;
+}
+
+.image-96 img {
+    width: 40px; /* Ajusta el tamaño según tus necesidades */
+    height: 40px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+}
+
+/* Container 36 */
+.container-36 {
+  position: absolute; 
+  top: 67px; 
+  left: -1px; 
+  width: 1700px; 
+  height: 833px; 
+  background: #F8F9FAFF; /* neutral-150 */
+  border-radius: 0px; 
+}
+
+/* Texto */
+.container-39 .text {
+  position: absolute; 
+  top: 53px; 
+  left: 97px; 
+  font-family: Poppins; /* Heading */
+  font-size: 24px; 
+  font-weight: 700; 
+  line-height: 36px; 
+  color: #171A1F; /* neutral-900 */
+}
+
+/* Container 37 */
+.container-37 {
+  position: absolute; 
+  top: 26px; 
+  left: 140px; 
+  width: 1131px; 
+  height: 629px; 
+  background: #DEE1E6FF; /* neutral-300 */
+  border-radius: 12px; /* border-m */
+}
+
+.container-37 .textr {
+  position: absolute; 
+  top: 26px; 
+  left: 34px; 
+  font-family: Poppins; /* Heading */
+  font-size: 24px; 
+  font-weight: 700; 
+  line-height: 36px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+/* Header Menu 16 */
+.container-37 .header-menu {
+  position: absolute; 
+  top: 94px; 
+  left: 34px; 
+  width: 342px; 
+  height: 56px; 
+  display: flex; 
+  align-items: center; 
+  font-family: Poppins; /* Heading */
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 26px; 
+  opacity: 1; 
+}
+/* Header Menu 16 - Item */
+.container-37 .header-menu .header-menu-item {
+  padding: 15px 16px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  color: #565E6CFF; /* neutral-600 */
+  border-radius: 28px 28px 0px 0px; /* border-tl-rounded border-tr-rounded */
+  cursor: pointer; 
+  white-space: nowrap; 
+}
+/* Header Menu 16 - Selected item */
+.container-37 .header-menu .header-menu-item.selected {
+  position: relative; 
+  font-weight: 700; 
+  color: #565E6CFF; /* secondary-500 */
+}
+/* Header Menu 16 - Selected item */
+.container-37 .header-menu .header-menu-item.selected:hover:active {
+  color: #565E6CFF; /* secondary-500 */
+}
+/* Header Menu 16 - Item with indicator */
+.container-37 .header-menu .header-menu-item.selected .indicator {
+  position: absolute; 
+  bottom: 0px; 
+  width: 100%; 
+  height: 4px; 
+  background: #565E6CFF; /* secondary-500 */
+  border-radius: 2px 2px 0px 0px; 
+}
+/* Container 127 */
+.container-37 .container-127 {
+  position: absolute; 
+  top: 150px; 
+  left: 34px; 
+  width: 558px; 
+  height: 147px; 
+  background: #139CFF0D; /* primary-500 */
+  border-radius: 24px; 
+}
+
+.container-37 .container-127 .text {
+  position: absolute; 
+  top: 25px; 
+  left: 76px; 
+  width: 458px; 
+  font-family: Poppins; /* Heading */
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 26px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+/* Textbox 45 */
+.container-37 .textbox1 {
+  position: absolute; 
+  top: 553px; 
+  left: 34px; 
+  opacity: 1; 
+}
+.container-37 .textbox1 input {
+  width: 490px; 
+  height: 52px; 
+  padding-left: 20px; 
+  padding-right: 52px; 
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px; 
+  font-weight: 400; 
+  line-height: 28px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 26px; 
+  border-width: 0px; 
+  outline: none; 
+}
+.container-37 .textbox1 svg {
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+  width: 24px; 
+  height: 24px; 
+  fill: #171A1FFF; /* neutral-900 */
+}
+/* hover */
+.container-37 .textbox1 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.container-37 .textbox1 input:focused {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.container-37 .textbox1 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.container-37 .textbox1 :disabled + .icon, .container-37 .textbox1 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+/* Container 125 */
+.container-125{
+  position: absolute; 
+  top: 26px; 
+  left: 632px; 
+  width: 475px; 
+  height: 577px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 24px; 
+}
+
+.container-125 .text {
+  position: absolute; 
+  top: 27px; 
+  left: 195px; 
+  font-family: Poppins; /* Heading */
+  font-size: 20px; 
+  font-weight: 700; 
+  line-height: 30px; 
+  color: #6E7787FF; /* neutral-550 */
+}
+
+/* Image 186 */
+.container-125 .image2 {
+  position: absolute; 
+  top: 223px; 
+  left: 170px; 
+  width: 133px; 
+  height: 133px; 
+  border-radius: 0px; 
+}
+
+/* Image 186 */
+.container-125 .image3 {
+  position: absolute; 
+  top: 223px; 
+  left: 170px; 
+  width: 133px; 
+  height: 133px; 
+  border-radius: 0px; 
+}
+
+/* Image 186 */
+.container-125 .image4 {
+  position: absolute; 
+  top: 7px; 
+  left: 19px; 
+  width: 89px; 
+  height: 89px; 
+  border-radius: 0px; 
+}

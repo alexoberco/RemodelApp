@@ -1,0 +1,433 @@
+/* Container 39 */
+.container-39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: #FFFFFF;
+  border-radius: 2vh;
+}
+
+/* Logo Container */
+.logo-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2vw;
+}
+
+/* Logo */
+.logo {
+  width: 10vw;
+  height: auto;
+}
+
+/* Textbox 4 */
+.container-39 .textbox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15vw;
+  opacity: 1;
+}
+
+.container-39 .textbox input {
+  width: 20vw; /* Ajustado para que sea más corto y adaptable */
+  height: 5vh;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  font-size: 2vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 2.6vh;
+  background: #F3F4F6;
+  border-radius: 1vh;
+  border-width: 0;
+  outline: none;
+}
+
+.container-39 .textbox svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1.6vw;
+  width: 2vh;
+  height: auto;
+}
+
+.container-39 .textbox svg.left {
+  left: 1.6vw;
+}
+
+/* hover */
+.container-39 .textbox input:hover {
+  color: #BCC1CA;
+  background: #F3F4F6;
+}
+
+/* focused */
+.container-39 .textbox input:focus {
+  color: #BCC1CA;
+  background: #FFFFFF;
+}
+
+/* disabled */
+.container-39 .textbox input:disabled {
+  color: #BCC1CA;
+  background: #F3F4F6;
+}
+
+.container-39 .textbox :disabled + .icon,
+.container-39 .textbox :disabled + .icon + .icon {
+  fill: #171A1F;
+}
+
+/* Header Menu 2 */
+.container-39 .header-menu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40vw; /* Centrado más hacia el centro */
+  width: 30vw; /* Ajustado para que quede más centrado */
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alineación de los elementos */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 2.2vh;
+  opacity: 1;
+}
+
+.container-39 .header-menu .header-menu-item {
+  padding: 1.5vh 1vw;
+  color: #565E6C;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.container-39 .header-menu .header-menu-item:hover {
+  color: #000000;
+  font-weight: 700;
+}
+
+.container-39 .header-menu .header-menu-item.selected {
+  position: relative;
+  font-weight: 500;
+  color: #000000;
+}
+
+.container-39 .header-menu .header-menu-item.selected::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.container-39 .header-menu .header-menu-item.selected:hover {
+  color: #565E6C;
+  font-weight: 400;
+}
+
+/* Añade este estilo para quitar el subrayado de los enlaces */
+.container-39 .header-menu .header-menu-item {
+  text-decoration: none;
+}
+
+/* Button 20 */
+.button-20 {
+  position: absolute;
+  top: 18px;
+  left: 75vw; /* Ajustado para que se adapte a la pantalla */
+  height: 5vh; /* Ajustado para que sea adaptable */
+  padding: 0 2vw; /* Ajustado para que sea adaptable */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1vw; /* Ajustado para que sea adaptable */
+  font-weight: 400;
+  line-height: 2.6vh; /* Ajustado para que sea adaptable */
+  color: #FFFFFFFF;
+  background: #171A1FFF;
+  opacity: 1;
+  border: none;
+  border-radius: 2vh; /* Ajustado para que sea adaptable */
+  gap: 2vw; /* Ajustado para que sea adaptable */
+}
+
+.button-20 .icon {
+  width: 2.5vw; /* Ajustado para que sea adaptable */
+  height: 2.5vw; /* Ajustado para que sea adaptable */
+  fill: #FFFFFFFF;
+}
+
+/* Text 21 */
+.text-21 {
+  position: absolute;
+  top: 23px;
+  left: 91vw; /* Ajustado para que se adapte a la pantalla */
+  font-family: 'Poppins';
+  font-size: 1vw; /* Ajustado para que sea adaptable */
+  font-weight: 700;
+  line-height: 3.6vh; /* Ajustado para que sea adaptable */
+  color: #171A1FFF;
+}
+
+.image-96 img {
+    width: 40px; /* Ajusta el tamaño según tus necesidades */
+    height: 40px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+}
+
+/* Container 36 */
+.container-36 {
+  position: absolute; 
+  top: 67px; 
+  left: -1px; 
+  width: 1600px; 
+  height: 833px; 
+  background: #F8F9FAFF; /* neutral-150 */
+  border-radius: 0px; 
+}
+
+/* Container 37 */
+.container-37 {
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  width: 1600px; 
+  height: 657px; 
+  background: #F8F9FAFF; /* neutral-150 */
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image1 {
+  position: absolute; 
+  top: 23px; 
+  left: -79px; 
+  width: 365px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Container 127 */
+.container-37 .container1 {
+  position: absolute; 
+  top: 23px; 
+  left: 309px; 
+  width: 245px; 
+  height: 182px; 
+  background: #FFC414FF; /* secondary-500 */
+  border-radius: 24px; 
+}
+
+.container-37 .container1 .text {
+  position: absolute; 
+  top: 55px; 
+  left: 27px; 
+  width: 191px; 
+  font-family: 'Poppins'; /* Heading */
+  font-size: 24px; 
+  font-weight: 700; 
+  line-height: 36px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+/* Image */
+.container-37 .image2 {
+  position: absolute; 
+  top: 23px; 
+  left: 577px; 
+  width: 262px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image3 {
+  position: absolute; 
+  top: 23px; 
+  left: 862px; 
+  width: 178px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image4 {
+  position: absolute; 
+  top: 23px; 
+  left: 1063px; 
+  width: 468px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image5 {
+  position: absolute; 
+  top: 228px; 
+  left: -47px; 
+  width: 262px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Container 127 */
+.container-37 .container2 {
+  position: absolute; 
+  top: 228px; 
+  left: 240px; 
+  width: 206px; 
+  height: 182px; 
+  background: #66B2ECFF; /* info-400 */
+  border-radius: 24px; 
+}
+
+.container-37 .container2 .text {
+  position: absolute; 
+  top: 55px; 
+  left: 26px; 
+  width: 153px; 
+  font-family: 'Poppins'; /* Heading */
+  font-size: 24px; 
+  font-weight: 700; 
+  line-height: 36px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+/* Image */
+.container-37 .image6 {
+  position: absolute; 
+  top: 228px; 
+  left: 468px; 
+  width: 186px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image7 {
+  position: absolute; 
+  top: 228px; 
+  left: 676px; 
+  width: 217px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image8 {
+  position: absolute; 
+  top: 228px; 
+  left: 912px; 
+  width: 186px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image9 {
+  position: absolute; 
+  top: 228px; 
+  left: 1117px; 
+  width: 387px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image10 {
+  position: absolute; 
+  top: 433px; 
+  left: -32px; 
+  width: 191px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image11 {
+  position: absolute; 
+  top: 433px; 
+  left: 181px; 
+  width: 238px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Container 127 */
+.container-37 .container3 {
+  position: absolute; 
+  top: 433px; 
+  left: 441px; 
+  width: 245px; 
+  height: 182px; 
+  background: #4CE77FFF; /* success-400 */
+  border-radius: 24px; 
+}
+
+.container-37 .container3 .text {
+  position: absolute; 
+  top: 55px; 
+  left: 27px; 
+  width: 191px; 
+  font-family: 'Poppins'; /* Heading */
+  font-size: 24px; 
+  font-weight: 700; 
+  line-height: 36px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+/* Image */
+.container-37 .image12 {
+  position: absolute; 
+  top: 433px; 
+  left: 707px; 
+  width: 186px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}
+
+/* Container 127 */
+.container-37 .container4 {
+  position: absolute; 
+  top: 433px; 
+  left: 912px; 
+  width: 151px; 
+  height: 182px; 
+  background: #DE3B40FF; /* danger-500 */
+  border-radius: 24px; 
+}
+
+.container-37 .container4 .text {
+  position: absolute; 
+  top: 37px; 
+  left: 9px; 
+  width: 134px; 
+  font-family: 'Poppins'; /* Heading */
+  font-size: 24px; 
+  font-weight: 700; 
+  line-height: 36px; 
+  color: #FFFFFFFF; /* white */
+}
+
+/* Image */
+.container-37 .image13 {
+  position: absolute; 
+  top: 433px; 
+  left: 1084px; 
+  width: 368px; 
+  height: 182px; 
+  border-radius: 12px; /* border-m */
+}

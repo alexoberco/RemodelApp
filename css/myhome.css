@@ -1,0 +1,1661 @@
+/* Container 39 */
+.container-39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: #FFFFFF;
+  border-radius: 2vh;
+}
+
+/* Logo Container */
+.logo-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2vw;
+}
+
+/* Logo */
+.logo {
+  width: 10vw;
+  height: auto;
+}
+
+/* Textbox 4 */
+.container-39 .textbox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15vw;
+  opacity: 1;
+}
+
+.container-39 .textbox input {
+  width: 20vw; /* Ajustado para que sea más corto y adaptable */
+  height: 5vh;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  font-size: 2vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 2.6vh;
+  background: #F3F4F6;
+  border-radius: 1vh;
+  border-width: 0;
+  outline: none;
+}
+
+.container-39 .textbox svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1.6vw;
+  width: 2vh;
+  height: auto;
+}
+
+.container-39 .textbox svg.left {
+  left: 1.6vw;
+}
+
+/* hover */
+.container-39 .textbox input:hover {
+  color: #BCC1CA;
+  background: #F3F4F6;
+}
+
+/* focused */
+.container-39 .textbox input:focus {
+  color: #BCC1CA;
+  background: #FFFFFF;
+}
+
+/* disabled */
+.container-39 .textbox input:disabled {
+  color: #BCC1CA;
+  background: #F3F4F6;
+}
+
+.container-39 .textbox :disabled + .icon,
+.container-39 .textbox :disabled + .icon + .icon {
+  fill: #171A1F;
+}
+
+/* Header Menu 2 */
+.container-39 .header-menu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40vw; /* Centrado más hacia el centro */
+  width: 30vw; /* Ajustado para que quede más centrado */
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alineación de los elementos */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 2.2vh;
+  opacity: 1;
+}
+
+.container-39 .header-menu .header-menu-item {
+  padding: 1.5vh 1vw;
+  color: #565E6C;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.container-39 .header-menu .header-menu-item:hover {
+  color: #000000;
+  font-weight: 700;
+}
+
+.container-39 .header-menu .header-menu-item.selected {
+  position: relative;
+  font-weight: 500;
+  color: #000000;
+}
+
+.container-39 .header-menu .header-menu-item.selected::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.container-39 .header-menu .header-menu-item.selected:hover {
+  color: #565E6C;
+  font-weight: 400;
+}
+
+/* Añade este estilo para quitar el subrayado de los enlaces */
+.container-39 .header-menu .header-menu-item {
+  text-decoration: none;
+}
+
+/* Button 20 */
+.button-20 {
+  position: absolute;
+  top: 18px;
+  left: 75vw; /* Ajustado para que se adapte a la pantalla */
+  height: 5vh; /* Ajustado para que sea adaptable */
+  padding: 0 2vw; /* Ajustado para que sea adaptable */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1vw; /* Ajustado para que sea adaptable */
+  font-weight: 400;
+  line-height: 2.6vh; /* Ajustado para que sea adaptable */
+  color: #FFFFFFFF;
+  background: #171A1FFF;
+  opacity: 1;
+  border: none;
+  border-radius: 2vh; /* Ajustado para que sea adaptable */
+  gap: 2vw; /* Ajustado para que sea adaptable */
+}
+
+.button-20 .icon {
+  width: 2.5vw; /* Ajustado para que sea adaptable */
+  height: 2.5vw; /* Ajustado para que sea adaptable */
+  fill: #FFFFFFFF;
+}
+
+/* Text 21 */
+.text-21 {
+  position: absolute;
+  top: 23px;
+  left: 91vw; /* Ajustado para que se adapte a la pantalla */
+  font-family: Poppins;
+  font-size: 1vw; /* Ajustado para que sea adaptable */
+  font-weight: 700;
+  line-height: 3.6vh; /* Ajustado para que sea adaptable */
+  color: #171A1FFF;
+}
+
+.image-96 img {
+    width: 40px; /* Ajusta el tamaño según tus necesidades */
+    height: 40px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+}
+
+/* Container 36 */
+.container-36 {
+  position: absolute; 
+  top: 67px; 
+  left: -1px; 
+  width: 1452px; 
+  height: 833px; 
+  background: #F8F9FAFF; /* neutral-150 */
+  border-radius: 0px; 
+}
+
+/* Image 96 */
+.container-36 .image1 {
+  position: absolute; 
+  top: 15px; 
+  left: 27px; 
+  width: 237px; 
+  height: 237px; 
+  border-radius: 119px; 
+}
+
+/* Image 96 */
+.container-36 .image2 {
+  position: absolute; 
+  top: 248px; 
+  left: 183px; 
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50px; 
+}
+
+/* Image 96 */
+.container-36 .image3 {
+  position: absolute; 
+  top: 265px; 
+  left: 20px; 
+  width: 142px; 
+  height: 142px; 
+  border-radius: 71px; 
+}
+
+/* Image 96 */
+.container-36 .image4 {
+  position: absolute; 
+  top: 417px; 
+  left: 52px; 
+  width: 220px; 
+  height: 220px; 
+  border-radius: 110px; 
+}
+
+/* Image 96 */
+.container-36 .image5 {
+  position: absolute; 
+  top: 28px; 
+  left: 1162px; 
+  width: 142px; 
+  height: 142px; 
+  border-radius: 71px; 
+}
+
+/* Image 96 */
+.container-36 .image6 {
+  position: absolute; 
+  top: 99px; 
+  left: 1317px; 
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50px; 
+}
+
+/* Image 96 */
+ .container-36 .image7 {
+  position: absolute; 
+  top: 197px; 
+  left: 1174px; 
+  width: 237px; 
+  height: 237px; 
+  border-radius: 119px; 
+}
+
+/* Image 96 */
+ .container-36 .image8 {
+  position: absolute; 
+  top: 459px; 
+  left: 1162px; 
+  width: 198px; 
+  height: 198px; 
+  border-radius: 99px; 
+}
+
+/* Container 37 */
+.container-37 {
+  position: absolute; 
+  top: 15px; 
+  left: 302px; 
+  width: 848px; 
+  height: 629px; 
+  background: #DEE1E6FF; /* neutral-300 */
+  border-radius: 12px; /* border-m */
+}
+
+/* Image */
+.container-37 .image1 {
+  position: absolute; 
+  top: 20px; 
+  left: 21px; 
+  width: 263px; 
+  height: 151px; 
+  border-radius: 12px; /* border-m */
+  object-fit: cover; /* La imagen se recortará para llenar el contenedor manteniendo su relación de aspecto */
+}
+
+/* Image */
+.container-37 .image2 {
+  position: absolute; 
+  top: 20px; 
+  left: 305px; 
+  width: 254px; 
+  height: 151px; 
+  border-radius: 12px; /* border-m */
+  object-fit: cover; 
+}
+
+/* Image */
+.container-37 .image3 {
+  position: absolute; 
+  top: 20px; 
+  left: 580px; 
+  width: 250px; 
+  height: 151px; 
+  border-radius: 12px; /* border-m */
+  object-fit: cover; 
+}
+
+.container-37 .textit {
+  position: absolute; 
+  top: 181px; 
+  left: 333px; 
+  width: 147px; 
+  font-family: Poppins; /* Heading */
+  font-size: 32px; 
+  font-weight: 700; 
+  line-height: 48px; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+/* Textbox 39 */
+.textbox1 {
+  position: absolute; 
+  top: 229px; 
+  left: 21px; 
+  opacity: 1; 
+}
+
+.textbox1 input {
+  width: 352px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-family: Poppins; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+
+.textbox1 .label {
+  font-family: Poppins; 
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+
+/* Hover */
+.textbox1 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+
+/* Focused */
+.textbox1 input:focus {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+
+/* Disabled */
+.textbox1 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+
+.textbox1 :disabled + .icon, .textbox1 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+/* Textbox 39 */
+.textbox2 {
+  position: absolute; 
+  top: 302px; 
+  left: 21px; 
+  opacity: 1; 
+}
+.textbox2 input {
+  width: 352px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-family: Poppins; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+.textbox2 .label {
+  font-family: Poppins; 
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+/* hover */
+.textbox2 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.textbox2 input:focused {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.textbox2 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.textbox2 :disabled + .icon, .textbox2 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+/* Textbox 39 */
+.textbox3 {
+  position: absolute; 
+  top: 371px; 
+  left: 21px; 
+  opacity: 1; 
+}
+.textbox3 input {
+  width: 352px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-family: Poppins; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+.textbox3 .label {
+  font-family: Poppins; 
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+/* hover */
+.textbox3 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.textbox3 input:focused {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.textbox3 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.textbox3 :disabled + .icon, .textbox3 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+/* Textbox 39 */
+.textbox4 {
+  position: absolute; 
+  top: 440px; 
+  left: 21px; 
+  opacity: 1; 
+}
+.textbox4 input {
+  width: 352px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-family: Poppins; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+.textbox4 .label {
+  font-family: Poppins; 
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+/* hover */
+.textbox4 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.textbox4 input:focused {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.textbox4 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.textbox4 :disabled + .icon, .textbox4 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+/* Textbox 39 */
+.textbox5 {
+  position: absolute; 
+  top: 513px; 
+  left: 21px; 
+  opacity: 1; 
+}
+.textbox5 input {
+  width: 352px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-family: Poppins; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+.textbox5 .label {
+  font-family: Poppins; 
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+/* hover */
+.textbox5 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.textbox5 input:focused {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.textbox5 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.textbox5 :disabled + .icon, .textbox5 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+.line {
+  position: absolute;
+  top: 420px;
+  left: 240px;
+  width: 350px;
+  height: 0px;
+  border-width: 4px;
+  border-color: #1D2128FF; /* neutral-800 */
+  border-style: solid;
+  transform: rotate(90deg);
+}
+
+/* Textbox 39 */
+.textbox6 {
+  position: absolute; 
+  top: 229px; 
+  left: 440px; 
+  opacity: 1; 
+}
+.textbox6 input {
+  width: 172px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-family: Poppins; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+.textbox6 .label {
+  font-family: Poppins; 
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+/* hover */
+.textbox6 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.textbox6 input:focused {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.textbox6 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.textbox6 :disabled + .icon, .textbox6 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+.text22 {
+  position: absolute; 
+  top: 229px; 
+  left: 645px; 
+  font-family: Poppins; /* Body */
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-700 */
+}
+
+/* Radio 3 */
+.radio1 {
+  position: absolute; 
+  top: 259px; 
+  left: 645px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio1 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio1 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio1 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio1 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio1 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio1 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio1 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio1 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio2 {
+  position: absolute; 
+  top: 259px; 
+  left: 687px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio2 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio2 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio2 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio2 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio2 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio2 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio2 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio2 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+.container-37 .text23 {
+  position: absolute; 
+  top: 304px; 
+  left: 440px; 
+  font-family: Poppins; /* Body */
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-700 */
+}
+
+/* Radio 3 */
+.radio3 {
+  position: absolute; 
+  top: 332px; 
+  left: 440px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio3 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio3 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio3 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio3 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio3 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio3 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio3 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio3 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio4 {
+  position: absolute; 
+  top: 332px; 
+  left: 480px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio4 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio4 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio4 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio4 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio4 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio4 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio4 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio4 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio5 {
+  position: absolute; 
+  top: 332px; 
+  left: 516px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio5 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio5 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio5 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio5 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio5 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio5 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio5 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio5 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio6 {
+  position: absolute; 
+  top: 332px; 
+  left: 552px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio6 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio6 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio6 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio6 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio6 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio6 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio6 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio6 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio7 {
+  position: absolute; 
+  top: 332px; 
+  left: 588px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Inter; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio7 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio7 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio7 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio7 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio7 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio7 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio7 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio7 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+.container-37 .text24 {
+  position: absolute; 
+  top: 304px; 
+  left: 645px; 
+  font-family: Poppins; /* Body */
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-700 */
+}
+/* Radio 3 */
+.radio8 {
+  position: absolute; 
+  top: 332px; 
+  left: 645px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio8 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio8 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio8 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio8 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio8 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio8 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio8 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio8 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio9 {
+  position: absolute; 
+  top: 332px; 
+  left: 685px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio9 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio9 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio9 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio9 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio9 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio9 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio9 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio9 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio10 {
+  position: absolute; 
+  top: 332px; 
+  left: 721px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio10 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio10 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio10 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio10 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio10 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio10 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio10 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio10 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio11 {
+  position: absolute; 
+  top: 332px; 
+  left: 757px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio11 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio11 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio11 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio11 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio11 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio11 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio11 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio11 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+.text25 {
+  position: absolute; 
+  top: 371px; 
+  left: 440px; 
+  font-family: Poppins; /* Body */
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-700 */
+}
+
+/* Radio 3 */
+.radio12 {
+  position: absolute; 
+  top: 399px; 
+  left: 440px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio12 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio12 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio12 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio12 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio12 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio12 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio12 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio12 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio13 {
+  position: absolute; 
+  top: 399px; 
+  left: 532px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio13 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio13 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio13 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio13 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio13 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio13 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio13 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio13 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio14 {
+  position: absolute; 
+  top: 399px; 
+  left: 613px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio14 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio14 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio14 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio14 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio14 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio14 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio14 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio14 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Radio 3 */
+.radio15 {
+  position: absolute; 
+  top: 399px; 
+  left: 699px; 
+  display: flex; 
+  flex-direction: column; 
+  font-family: Poppins; /* Body */
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  gap: 8px; 
+}
+/* Radio 3 - Disabled item */
+.radio15 .radio-item.disabled {
+  opacity: 0.4; 
+}
+/* Radio 3 - Item */
+.radio15 .radio-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 6px; 
+}
+/* Radio 3 - Item - outer circle */
+.radio15 .radio-item .outer-circle {
+  padding: 4px; 
+  background: #00000000; /* transparent */
+  border: #565E6CFF 1px solid; /* neutral-600 */
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Inner circle */
+.radio15 .radio-item .inner-circle {
+  width: 8px; 
+  height: 8px; 
+  border-radius: 100%; 
+}
+/* Radio 3 - Item - Hovered outer circle */
+.radio15 .radio-item .outer-circle:hover {
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Focused outer circle */
+.radio15 .radio-item .outer-circle:hover:active {
+  border: #139CFFFF 1px solid; /* primary-500 */
+  box-shadow: 0px 0px 2px #139CFF; 
+}
+/* Radio 3 - Item - Selected outer circle */
+.radio15 .radio-item.selected .outer-circle {
+  background: #00000000; /* transparent */
+  border: #139CFFFF 1px solid; /* primary-500 */
+}
+/* Radio 3 - Item - Selected inner circle */
+.radio15 .radio-item.selected .inner-circle {
+  background: #139CFFFF; /* primary-500 */
+}
+
+/* Textbox 39 */
+.textbox7 {
+  position: absolute; 
+  top: 440px; 
+  left: 437px; 
+  opacity: 1; 
+}
+.textbox7 input {
+  width: 367px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-family: Poppins; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+.textbox7 .label {
+  font-family: Poppins; 
+  font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+/* hover */
+.textbox7 input:hover {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+.textbox7 input:focused {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+.textbox7 input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+.textbox7 :disabled + .icon, .textbox7 :disabled + .icon + .icon {
+  fill: #171A1FFF; /* neutral-900 */
+}
+
+/* Button 88 */
+.button2 {
+  position: absolute; 
+  top: 533px; 
+  left: 437px; 
+  width: 191px; 
+  height: 44px; 
+  padding: 0 16px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Poppins; 
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 26px; 
+  color: #FFFFFFFF; /* white */
+  background: #171A1FFF; /* neutral-900 */
+  opacity: 1; 
+  border: none; 
+  border-radius: 12px; /* border-m */
+}
+/* Hover */
+.button2:hover {
+  color: #FFFFFFFF; /* white */
+  background: #262A33FF; /* neutral-750 */
+}
+/* Pressed */
+.button2:hover:active {
+  color: #FFFFFFFF; /* white */
+  background: #323842FF; /* neutral-700 */
+}
+/* Disabled */
+.button2:disabled {
+  opacity: 0.4; 
+}
+
+/* Button 88 */
+.button {
+  position: absolute; 
+  top: 533px; 
+  left: 639px; 
+  width: 160px; 
+  height: 44px; 
+  padding: 0 16px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Poppins; 
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 26px; 
+  color: #171A1FFF; /* neutral-900 */
+  background: #FFFFFFFF; /* white */
+  opacity: 1; 
+  border: none; 
+  border-radius: 12px; /* border-m */
+}
+/* Hover */
+.button:hover {
+  color: #171A1FFF; /* neutral-900 */
+  background: #DEE1E6FF; /* neutral-300 */
+}
+/* Pressed */
+.button:hover:active {
+  color: #171A1FFF; /* neutral-900 */
+  background: #BCC1CAFF; /* neutral-400 */
+}
+/* Disabled */
+.button:disabled {
+  opacity: 0.4; 
+}
